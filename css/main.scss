@@ -1,0 +1,33 @@
+ 
+  $ancho:100%;
+  $alto:500px;
+  $abajo:50px;
+  $abajo1:150px;
+  $azul:blue;
+
+
+
+
+.fondo{
+   	width: $ancho; 
+    height: $alto;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../images/pan.jpg");
+    background-repeat: no-repeat;
+    margin-top: $abajo;
+   }
+h2{
+	font-size: 40px;
+	margin-top: $abajo1;
+	text-align:left;
+}
+.sub{
+	margin-left: $abajo1;
+}
+
+.azul{
+	border-color: $azul;
+	margin-top: $abajo1;
+
+}
